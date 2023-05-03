@@ -7,7 +7,7 @@ Model Saver is a Python package that provides a simple and convenient way to sav
 You can install Model Saver using pip:
 
 ```
-pip install model_saver
+pip install model-saver
 ```
 
 ## Usage

@@ -1,9 +1,6 @@
 import pickle
 
 class ModelSaver:
-    def __init__(self):
-        
-
     def save_model(self, model, filename):
         self.model = model
         with open(filename + '.model', 'wb') as f:

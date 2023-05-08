@@ -31,8 +31,8 @@ model = LinearRegression()
 model.fit(X_train, y_train)
 
 # Save the trained model
-saver = ModelSaver(model)
-saver.save_model( "linear_regression")
+saver = ModelSaver()
+saver.save_model(model, "linear_regression")
 ```
 
 This will save the trained LinearRegression model as a binary file with the name "linear_regression.model" in the current working directory.
